@@ -15,7 +15,7 @@ public class Delivery {
     @GeneratedValue
     private Long id;
     @Embedded
-    private String Address;
+    private Address address;
 //    private Status
 
 }

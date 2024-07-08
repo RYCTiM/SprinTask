@@ -1,5 +1,5 @@
-package springtask.springtask.domain;
-
-public class Status {
-
-}
+//package springtask.springtask.domain;
+//
+//public class Status {
+//
+//}
