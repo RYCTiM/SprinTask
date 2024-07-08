@@ -1,16 +1,16 @@
 package springtask.springtask.domain;
 
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
 
 @Getter@Setter@Entity
 @MappedSuperclass
 public abstract class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id; // ID 필드
+    private Long id;
     @Column(name = "name_id")
     private String name; // &#xC774;&#xB984; &#xD544;&#xB4DC;
     private int price; // 가격 필드

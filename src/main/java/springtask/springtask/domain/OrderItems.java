@@ -1,9 +1,8 @@
 package springtask.springtask.domain;
 
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-
-import javax.persistence.*;
 
 //필요한 라이브러리들
 @Entity
