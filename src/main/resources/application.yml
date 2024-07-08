@@ -5,8 +5,8 @@ spring:
       path: /h2-console
 
   datasource:
-    url: jdbc:h2:~/Task
-    username:
+    url: jdbc:h2:~/killMeRightNow
+    username: Task
     password:
     driver-class-name: org.h2.Driver
   jpa:
